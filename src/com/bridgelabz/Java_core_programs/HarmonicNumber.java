@@ -9,8 +9,11 @@ public class HarmonicNumber {
 		Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Nth number to check for harmonic value :");
 		int N = sc.nextInt();
- 
+		if(N!=0) {
         System.out.print(nthHarmonic(N));
+		}
+		else
+			System.out.println("Invalid input");
  
 	}
 	static double nthHarmonic(int N)
