@@ -1,4 +1,4 @@
-package com.bridgelabz.Java_core_programs;
+package com.bridgelabz.java_core_programs;
 
 import java.util.Scanner;
 
@@ -6,9 +6,9 @@ public class Even_Odd {
 
 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter a Number to check if it odd or even :");
-		int NUMBER = sc.nextInt();
+		int NUMBER = scanner.nextInt();
 		
 		if(NUMBER%2 ==0)
 		{

@@ -6,9 +6,9 @@ public class Factors {
 
 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the number to check for its prime factors");
-		int N = sc.nextInt();
+		int N = scanner.nextInt();
 		
 		for(int i = 2; i< N; i++) {
 	         while(N%i == 0) {

@@ -1,4 +1,4 @@
-package com.bridgelabz.Java_core_programs;
+package com.bridgelabz.java_core_programs;
 
 import java.util.Scanner;
 
@@ -6,9 +6,9 @@ public class LeapYear {
 
 	public static void main(String[] args) {
 
-		Scanner sc = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the year to check for leap year :");
-		int YEAR = sc.nextInt();
+		int YEAR = scanner.nextInt();
 		
 		if(YEAR>999 && YEAR<=9999)
 		{

@@ -1,4 +1,4 @@
-package com.bridgelabz.Java_core_programs;
+package com.bridgelabz.java_core_programs;
 
 import java.util.Scanner;
 
@@ -6,9 +6,9 @@ public class FlipCoin {
 
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the number of flips required :");
-		int NUMBER_OF_FLIPS = sc.nextInt();
+		int NUMBER_OF_FLIPS = scanner.nextInt();
 		int HEAD = 1;
 		int HEAD_COUNT = 0;
 		

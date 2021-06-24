@@ -1,4 +1,4 @@
-package com.bridgelabz.Java_core_programs;
+package com.bridgelabz.java_core_programs;
 
 import java.util.Scanner;
 
@@ -6,13 +6,13 @@ public class GreatestOfThree {
 
 	public static void main(String[] args) {
 		int x, y, z;
-        Scanner s = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the first number:");
-        x = s.nextInt();
+        x = scanner.nextInt();
         System.out.print("Enter the second number:");
-        y = s.nextInt();
+        y = scanner.nextInt();
         System.out.print("Enter the third number:");
-        z = s.nextInt();
+        z = scanner.nextInt();
         
         if(x > y && x > z)
         {

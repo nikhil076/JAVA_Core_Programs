@@ -1,13 +1,13 @@
-package com.bridgelabz.Java_core_programs;
+package com.bridgelabz.java_core_programs;
 
 import java.util.Scanner;
 
 public class PowerOfTwo {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the number till the power of 2 required :");
-		int N = sc.nextInt();
+		int N = scanner.nextInt();
 		int POWER_OF_TWO = 1;
 		if(0<=N && N<31)
 		{
